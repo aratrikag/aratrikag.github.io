@@ -10,24 +10,26 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Aratrika" scroll>
-            <Navigation>
-              <Link to="/landingPage">Welcome</Link>
-              <Link to="/Accomplishments">Experience and Skills</Link>
-              <Link to="/Awards">Projects/Awards</Link>
-              <Link to="/Education">Education</Link>
-              <Link to="/contact">Contact</Link>
+          <Header className="header-color" title="Aratrika Ghatak" scroll>
+            <Navigation className="Navi">
+              <Link className="welcomeLink" to="/landingPage">
+                Welcome
+              </Link>
+              <Link className="welcomeLink1" to="/Accomplishments">
+                Experience and Skills
+              </Link>
+              <Link className="welcomeLink2" to="/AwardsAndProjects">
+                Projects/Awards
+              </Link>
+              <Link className="welcomeLink3" to="/Education">
+                Education
+              </Link>
+              <Link className="welcomeLink4" to="/contact">
+                Contact
+              </Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
-            <Navigation>
-              <Link to="/landingPage">Welcome</Link>
-              <Link to="/Accomplishments">Experience and Skills</Link>
-              <Link to="/Awards">Projects/Awards</Link>
-              <Link to="/Education">Education</Link>
-              <Link to="/contact">Contact</Link>
-            </Navigation>
-          </Drawer>
+
           <Content>
             <div className="page-content" />
             <Main />
@@ -38,3 +40,4 @@ class App extends Component {
   }
 }
 export default App;
+
