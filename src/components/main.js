@@ -5,7 +5,7 @@ import LandingPage from "./landingPage";
 import Accomplishments from "./Accomplishments";
 import contact from "./contact";
 import Education from "./Education";
-import Awards from "./Awards";
+import AwardsAndProjects from "./AwardsAndProjects";
 
 const Main = () => (
   <Switch>
@@ -14,7 +14,7 @@ const Main = () => (
     <Route path="/Accomplishments" component={Accomplishments} />
     <Route path="/contact" component={contact} />
     <Route path="/Education" component={Education} />
-    <Route path="/Awards" component={Awards} />
+    <Route path="/AwardsAndProjects" component={AwardsAndProjects} />
   </Switch>
 );
 
