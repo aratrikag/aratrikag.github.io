@@ -6,6 +6,9 @@ class Accomplishments extends Component {
     return (
       <Grid className="accomB">
         <div className="accomB">
+          <h3>
+            <b>Experience</b>
+          </h3>
           <div className="gwc" col={8}>
             <h4>
               <b>Girls Who Code Ambassador</b>: 2016-2018
