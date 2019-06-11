@@ -13,24 +13,13 @@
     #0f2027
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .landing-grid {
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url("http://getwallpapers.com/wallpaper/full/3/5/e/140073.jpg");
 
   text-align: center;
   position: fixed;
-  top: 0;
+  top: 20;
   left: 0;
   width: 100%;
   height: 100%;
@@ -46,15 +35,40 @@
 }
 
 .banner-text h1 {
-  font-size: 50px;
+  font-size: 66px;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.664);
+  color: white;
 }
 
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
 .banner-text h3 {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+  color: white;
+}
+
+.banner-text p {
+  color: rgb(255, 255, 255);
   font-size: 20px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.856);
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
 }
 .contact-body {
   margin: auto;
@@ -96,4 +110,28 @@
 }
 .eduCol {
   text-align: center;
+}
+.welcomeLink:hover {
+  background-color: black;
+}
+.welcomeLink1:hover {
+  background-color: black;
+}
+.welcomeLink2:hover {
+  background-color: black;
+}
+.welcomeLink3:hover {
+  background-color: black;
+}
+.welcomeLink4:hover {
+  background-color: black;
+}
+.cards {
+  width: 100;
+}
+.Project1 {
+  background-color: #203a43;
+  opacity: 10;
+  margin: auto;
+  border-radius: 10px;
 }
