@@ -9,11 +9,11 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Aratrika Ghatak</h2>
             <img
-              src="https://lh3.googleusercontent.com/zbAp-66AdTsRboE3kQU6WwJ5hsu4r0eiABPVDkNt4QrhHLplYiMAPBr1a7O6P2R4KV7ByHa8a4vMRZn8vk43B2fZ5wup0ZpM5LTEWzQza3fOZyLlvmVZFZhxLpwm8N7Fsg4xWZsO=w2400"
+              src="https://lh3.googleusercontent.com/p4HYuw_7_vBy1RezbDhwbxabmaDkBknuGwKuVjVMXv1biWNwk68bhDSeDdA8rDE3QRIG1hhXIZNYzbZ_mzhyxRLGfLB5OZhRk70dX7dTr71D0CWiOaQST5PQxZRyeRYZBkHnTA2R=w2400"
               alt="avatar"
-              style={{ height: "250px" }}
+              style={{ height: "400px" }}
             />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
+            <p style={{ width: "75%", margin: "auto" }}>
               Feel free to contact me at any of the following:
             </p>
           </Cell>
@@ -23,28 +23,22 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-phone-square" aria-hidden="true" />
                     (408) 800-8131
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-envelope" aria-hidden="true" />
                     ag988@cornell.edu
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
+                  <ListItemContent style={{ fontSize: "30px" }}>
                     <i className="fa fa-skype" aria-hidden="true" />
-                    MySkypeID: aratrika.ghatak
+                    MySkypeID: aratrikag
                   </ListItemContent>
                 </ListItem>
               </List>
