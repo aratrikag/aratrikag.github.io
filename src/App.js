@@ -29,7 +29,31 @@ class App extends Component {
               </Link>
             </Navigation>
           </Header>
-
+          <Drawer
+            title={
+              <Link style={{ textDecoration: "none", color: "black" }} to="/">
+                MyPortfolio
+              </Link>
+            }
+          >
+            <Navigation>
+              <Link className="welcomeLink" to="/landingPage">
+                Welcome
+              </Link>
+              <Link className="welcomeLink1" to="/Accomplishments">
+                Experience and Skills
+              </Link>
+              <Link className="welcomeLink2" to="/AwardsAndProjects">
+                Projects/Awards
+              </Link>
+              <Link className="welcomeLink3" to="/Education">
+                Education
+              </Link>
+              <Link className="welcomeLink4" to="/contact">
+                Contact
+              </Link>
+            </Navigation>
+          </Drawer>
           <Content>
             <div className="page-content" />
             <Main />
