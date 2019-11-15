@@ -4,75 +4,63 @@ import Skills from "./Skills";
 class Accomplishments extends Component {
   render() {
     return (
-      <Grid className="accomB">
-        <div className="accomB">
-          <h3>
-            <b>Experience</b>
-          </h3>
-          <div className="gwc" col={8}>
-            <h4>
-              <b>Girls Who Code Ambassador</b>: 2016-2018
-            </h4>
-            <p>
-              I helped students learn how to make websites, application and code
-              in various languages such as Python and Java. In addition, I
-              assisted instuctors in lesson planning and teaching.
-            </p>
-          </div>
+      <div className="accomB">
+        <header class="bg-primary text-center py-5 mb-4">
+  <div class="container">
+    <h1 class="font-weight-light text-white">Meet the Team</h1>
+  </div>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow" style = {{flexDirection:"row"}}>
+        <div>
 
-          <div className="gwc1" col={8}>
-            <h4>
-              {" "}
-              <b>Tutor at Silver Creek Academy</b>: 2016-2018
-            </h4>
-            <p>
-              I assisted the teachers in managing classes and students, and
-              helped teach subjects such as math, english, and public speaking.
-            </p>
-          </div>
-          <div col={4} />
-
-          <div className="gwc" col={8}>
-            <h4>
-              <b>Instructor at ‘An Appetite for Apps’</b>: 2016-2018
-            </h4>
-            <p>
-              I cofounded a program that taught children in elementary and
-              middle schools how to create applications using MIT app inverntor
-              2. I gave weekly lessons on mobile application creation, allowing
-              the kids to test and develop their apps.
-            </p>
-          </div>
-          <div className="gwc1">
-            <p>
-              <h4>
-                <b>Skills Include:</b>
-              </h4>
-              <ul>
-                <h4>
-                  <li>Python(Proficient)</li>
-                  <li>Java(Proficient)</li>
-                  <li>Swift(Beginner)</li>
-                  <li>JS/HTML/CSS(Beginner)</li>
-                </h4>
-              </ul>
-            </p>
-          </div>
-          <div col={10}>
-            <img
-              src="https://anappetiteforapps.files.wordpress.com/2016/05/img_0270.jpg?w=1556"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
-            <img
-              src="https://files.constantcontact.com/711f5ea9001/6bed921c-1136-4658-829f-6e0793708353.jpg?a=1126186292633"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
-          </div>
+        <img src="https://media.licdn.com/dms/image/C4E03AQFrTFvxvSC-NQ/profile-displayphoto-shrink_800_800/0?e=1579132800&v=beta&t=sdi8q897PVzNZ62g4E4OhZm0eA403nAyOq1e65GmRfA" height="400" class="card-img-top" alt="..."/>
         </div>
-      </Grid>
+        <div class="card">
+          <h5 class="card-title mb-0" >Erika Echaniz</h5>
+          <div class="card-text text-black-50">CEO/Co-founder: Erika Echaniz is a junior at Cornell University studying Industrial and Labor Relations with a minor in Entrepreneurship</div>
+        </div>
+      </div>
+      </div >
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://media.licdn.com/dms/image/C4E03AQHYfsTuj08qlA/profile-displayphoto-shrink_800_800/0?e=1579132800&v=beta&t=4CfVkGfOzw_JYokXoXbDcadVEANPrrfDJZJ4fsH0ICQ" height = "400" class="card-img-top" alt="..."/>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Nikhil Gotgi</h5>
+          <div class="card-text text-black-50">CEO/Co-founder: Nikhil Gotgi is a sophomore at The University of Texas at Dallas studying Economics and Finance</div>
+        </div>
+      </div>
+    </div>
+      <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://media.licdn.com/dms/image/C4E03AQG4vgwCGXpmhg/profile-displayphoto-shrink_800_800/0?e=1579132800&v=beta&t=t_X6AeJ558ZoCXIELILaGWzmtJ--Bxp7D-yP2PEbl1g" height = "400" class="card-img-top" alt="..."/>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Eliot Shekhtman</h5>
+          <div class="card-text text-black-50">Backend Developer: Eliot Shekhtman is a sophomore at Cornell University studying Computer Science in the College of Engineering.</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://media.licdn.com/dms/image/C5603AQFy_N_QtX0qcg/profile-displayphoto-shrink_200_200/0?e=1579132800&v=beta&t=39deFNeKXSYrd6ifFCjZ5GVUgxkM3uEmMZy1_w1KJjM" height = "400" class="card-img-top" alt="..."/>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Aratrika Ghatak</h5>
+          <div class="card-text text-black-50">Web Developer: Aratrika Ghatak is a sophomore ay Cornell University studying Electrical and Computer Engineering in the College of Engineering.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      </div>
+    </div>
+    
+  
+      
+     
     );
   }
 }
 export default Accomplishments;
+
