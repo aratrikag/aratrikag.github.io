@@ -10,22 +10,19 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Aratrika Ghatak" scroll>
+          <Header className="header-color" title="FlyHigh" scroll>
             <Navigation className="Navi">
               <Link className="welcomeLink" to="/landingPage">
                 Welcome
               </Link>
               <Link className="welcomeLink1" to="/Accomplishments">
-                Experience and Skills
+                Founding Team
               </Link>
               <Link className="welcomeLink2" to="/AwardsAndProjects">
-                Projects/Awards
+                Contact Us
               </Link>
               <Link className="welcomeLink3" to="/Education">
-                Education
-              </Link>
-              <Link className="welcomeLink4" to="/contact">
-                Contact
+                Application
               </Link>
             </Navigation>
           </Header>
@@ -41,17 +38,15 @@ class App extends Component {
                 Welcome
               </Link>
               <Link className="welcomeLink1" to="/Accomplishments">
-                Experience and Skills
+                Founding Team
               </Link>
               <Link className="welcomeLink2" to="/AwardsAndProjects">
-                Projects/Awards
+               Contact Us
               </Link>
               <Link className="welcomeLink3" to="/Education">
-                Education
+                Application
               </Link>
-              <Link className="welcomeLink4" to="/contact">
-                Contact
-              </Link>
+              
             </Navigation>
           </Drawer>
           <Content>
@@ -64,4 +59,5 @@ class App extends Component {
   }
 }
 export default App;
+
 
